@@ -269,6 +269,10 @@ body {
     align-items: flex-start;
 }
 
+.text-bold {
+    font-weight: 600;
+}
+
 .pricing-card-content {
     text-align: left;
     width: 100%;
@@ -883,6 +887,7 @@ body {
     padding-bottom: 4px;
     padding-left: 6px;
     padding-right: 6px;
+    margin-top: 6px;
     display: inline-block;
     transform: rotate(-1.4deg);
 }
@@ -1064,4 +1069,8 @@ body {
     width: 16px;
     height: 16px;
     margin-right: 8px;
+}
+
+.highlight-feature {
+    font-weight: 600;
 }
